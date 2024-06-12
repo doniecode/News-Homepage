@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+<main class="container">
+  <header class="header">
+    <img src="assets/images/logo.svg" alt="logo" class="logo">
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">New</a></li>
+        <li><a href="">Popular</a></li>
+        <li><a href="">Trending</a></li>
+        <li><a href="">Categories</a></li>
+      </ul>
+        <svg class="hamburger" width="40" height="20" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
+    </nav>
+    <nav class="sidebar">
+        <svg class="close-menu" width="42" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/><path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/></g></svg>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">New</a></li>
+        <li><a href="">Popular</a></li>
+        <li><a href="">Trending</a></li>
+        <li><a href="">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="grids">
+      <div class="grid grid-1">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="image" class="image-desktop"/>
+        <img src="assets/images/image-web-3-mobile.jpg" alt="image" class="image-mobile">
+      </div>
+      <div class="grid grid-2">
+        <div>
+          <h2 class="grid-title">
+            New
+          </h2>
+          <p class="lead">
+            Hydrogen VS Electric Cars
+          </p>
+          <p class="text">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
+        <div>
+          <p class="lead">
+            The Downsides of AI Artistry
+          </p>
+          <p class="text">
+            What are the possible adverse effects of on-demand AI image generation?
+          </p>
+        </div>
+        <div>
+          <p class="lead">
+            Is VC Funding Drying Up?
+          </p>
+          <p class="text">
+            Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-3">
+        <h3 class="title">
+           The Bright Future of Web 3.0?
+        </h3>
+        <div>
+          <p class="text text-dark">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cards">
+    <div class="card">
+      <img src="assets/images/image-retro-pcs.jpg" alt="image">
+      <div>
+        <span class="number">01</span>
+        <p class="lead card-lead">
+          Reviving Retro PCs
+        </p>
+        <p class="text card-text">
+          What happens when old PCs are given modern upgrades?
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/images/image-top-laptops.jpg" alt="image">
+      <div>
+        <span class="number">02</span>
+        <p class="lead card-lead">
+          Top 10 Laptops of 2022
+        </p>
+        <p class="text card-text">
+          Our best picks for various needs and budgets.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/images/image-gaming-growth.jpg" alt="image">
+      <div>
+        <span class="number">03</span>
+        <p class="lead card-lead">
+          The Growth of Gaming
+        </p>
+        <p class="text card-text">
+          How the pandemic has sparked fresh opportunities.
+        </p>
+      </div>
+    </div>
+    
+  </section>
+</main>
+
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.instagram.com/doniecode/">Donald Zarura | @doniecode</a>.
+  </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
